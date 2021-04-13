@@ -1,0 +1,40 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
+.wrap {
+    text-align: center;
+    background: cornflowerblue;   
+    padding: 15px;
+    
+    /* width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(75, 77, 75);
+    padding: 20px;
+    border-radius: 5px; */
+}
+
+.wrap h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: cornsilk;
+}
+
+#plus {
+    color: green;
+}
+
+#minus {
+    color: red;
+}
+
+#reset {
+    color:blue;
+}
